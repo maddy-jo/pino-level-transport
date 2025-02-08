@@ -1,13 +1,15 @@
 {
   "name": "pino-level-transport",
-  "version": "0.0.1-rc1",
+  "version": "0.0.1-rc2",
   "description": "A simple Pino transport to transform numeric levels into their string representations",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "clean": "rm -f index.js",
     "format": "prettier --write index.ts",
     "format:check": "prettier --check index.ts",
     "lint": "eslint index.ts",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
