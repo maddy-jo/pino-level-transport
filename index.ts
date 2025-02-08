@@ -14,6 +14,8 @@ const transformLogLevel = () =>
   build(
     (source: Transform & build.OnUnknown): Transform & build.OnUnknown => {
       const transform = new Transform({
+        autoDestroy: true,
+        objectMode: true,
         transform: (
           chunk: any, // eslint-disable-line @typescript-eslint/no-explicit-any
           encoding: BufferEncoding,
