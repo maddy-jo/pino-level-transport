@@ -84,3 +84,5 @@ function validatePinoConfig(
     throw new Error("source.levels.labels was not defined");
   }
 }
+
+export default transformLogLevel;
