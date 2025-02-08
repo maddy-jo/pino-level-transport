@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/maddy-jo/pino-level-transport/issues"
   },
-  "homepage": "https://github.com/maddy-jo/pino-level-transport#readme"
+  "homepage": "https://github.com/maddy-jo/pino-level-transport#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "pino": "^9.6.0"
+  },
+  "dependencies": {
+    "pino-abstract-transport": "^2.0.0"
+  }
 }
