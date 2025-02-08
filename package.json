@@ -1,6 +1,6 @@
 {
   "name": "pino-level-transport",
-  "version": "0.0.1-rc4",
+  "version": "0.0.1",
   "description": "A simple Pino transport to transform numeric levels into their string representations",
   "main": "index.js",
   "scripts": {
