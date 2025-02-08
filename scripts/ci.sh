@@ -11,6 +11,10 @@ printf "\e[1;33mlinting with eslint\e[;0m"
 npm run lint
 printf "\e[1;32meslint passed\e[;0m\n\n"
 
+printf "\e[1;33mrunning npm audit\e[;0m\n"
+npm audit
+printf "\e[1;32msecurity check passed\e[;0m\n\n"
+
 printf "\e[1;33mbuilding index.ts\e[;0m"
 npm run build
 printf "\e[1;32mindex.js built\e[;0m\n"
