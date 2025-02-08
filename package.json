@@ -4,6 +4,8 @@
   "description": "A simple Pino transport to transform numeric levels into their string representations",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write index.ts",
+    "format:check": "prettier --check index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +25,8 @@
   "homepage": "https://github.com/maddy-jo/pino-level-transport#readme",
   "devDependencies": {
     "@types/node": "^22.13.1",
-    "pino": "^9.6.0"
+    "pino": "^9.6.0",
+    "prettier": "^3.4.2"
   },
   "dependencies": {
     "pino-abstract-transport": "^2.0.0"
