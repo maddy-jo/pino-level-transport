@@ -1,0 +1,24 @@
+{
+  "name": "pino-level-transport",
+  "version": "0.0.1",
+  "description": "A simple Pino transport to transform numeric levels into their string representations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddy-jo/pino-level-transport.git"
+  },
+  "keywords": [
+    "logging",
+    "pino",
+    "transport"
+  ],
+  "author": "Madeline Lumetta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddy-jo/pino-level-transport/issues"
+  },
+  "homepage": "https://github.com/maddy-jo/pino-level-transport#readme"
+}
